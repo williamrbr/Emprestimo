@@ -1,12 +1,12 @@
 algoritmo "emprestimo"
 var
-    emprestimo, parcelas, valor,juros:real
+    emprestimo, parcelas, valor, juros:real
 inicio
-      escreval("qual o valor do empréstimo")
+      escreval("qual o valor do emprÃ©stimo:")
       leia(emprestimo)
       juros <- (emprestimo * 20) / 100
-      escreval("quantas parcelas")
+      escreval("quantas parcelas:")
       leia(parcelas)
       valor <- (emprestimo + juros)/parcelas
-      escreval("voce vai pagar ", valor, " em ", parcelas," vezes")
+      escreval("voce vai pagar ", valor, "R$ em ", parcelas,"X vezes")
 fimalgoritmo
